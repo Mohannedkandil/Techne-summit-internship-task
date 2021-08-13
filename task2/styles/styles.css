@@ -1,0 +1,115 @@
+body {
+  font: normal 16px Arial, Helvetica, sand-serif;
+}
+.remaining {
+  color: white;
+  background-color: #f15a22;
+  font-size: 25px;
+  text-align: center;
+  padding: 15px;
+}
+.group-passes {
+  color: white;
+  flex: wrap;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+}
+.prices .group-passes {
+  background-color: #2775d1;
+}
+.prices .group-passes .btn {
+  background-color: #f15a22;
+}
+.card-title {
+  text-transform: capitalize;
+  position: relative;
+  color: white;
+}
+.prices .card .content button {
+  top: 92%;
+  left: 50%;
+  width: 80%;
+  text-transform: capitalize;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(90deg, #f15a22, rgb(238, 9, 121));
+  color: white;
+  font-size: 18px;
+}
+.prices .row .card .content {
+  border: 1px solid whitesmoke;
+  position: relative;
+  min-height: 800px;
+  max-height: 800px;
+}
+.prices .row .card .card-title h3 {
+  background-color: #4188db;
+  padding: 1.3rem;
+  text-align: center;
+}
+.prices .row .card .card-title h6 {
+  background-color: #2775d1;
+  text-align: center;
+  margin: 0;
+}
+
+.original-price {
+  text-transform: capitalize;
+  display: flex;
+  justify-content: space-around;
+}
+.sale {
+  margin: 0;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 20px;
+  padding: 2px;
+}
+.sale-number {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.fprice {
+  margin: 0;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 20px;
+  padding: 2px;
+}
+.full-price {
+  text-align: center;
+}
+.sale-price {
+  text-align: center;
+}
+.prices .content .original-price {
+  font-size: 15px;
+}
+
+.prices .content .btns {
+  padding: 15px;
+}
+.prices .content .save-btn {
+  border-radius: 18px 0 0 18px;
+  background-color: #f15a22;
+  color: white;
+}
+.prices .content .sale-btn {
+  background-color: #f7a07f;
+  border-radius: 0 15px 15px 0;
+  color: white;
+  text-transform: capitalize;
+}
+.prices .row .content ul {
+  padding: 20px;
+  list-style-type: none;
+}
+.prices .row .content li {
+  padding: 10px;
+  white-space: wrap;
+}
+.check-icon {
+  color: #80b8ff;
+}
